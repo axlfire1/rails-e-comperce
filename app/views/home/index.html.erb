@@ -1,2 +1,17 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div id="react-root"></div>
+
+<script>
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  import KartButton from 'components/kart_button';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    ReactDOM.render(
+      <KartButton />,
+      document.getElementById('react-root')
+    );
+  });
+</script>
+
+<br>
+<button type="button" class="btn btn-primary">Primary</button>
