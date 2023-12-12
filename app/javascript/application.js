@@ -3,3 +3,4 @@
 // import "controllers"
 import 'bootstrap/scss/bootstrap';
 import './index';
+import * as bootstrap from "bootstrap"
