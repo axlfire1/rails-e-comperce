@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 const KartButton = () => {
   return (
@@ -7,5 +8,9 @@ const KartButton = () => {
     </div>
   );
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(<KartButton />, document.getElementById('kart-button'))
+})
 
 export default KartButton;

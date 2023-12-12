@@ -68,4 +68,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'execjs'
+gem 'jsbundling-rails'
+gem 'cssbundling-rails'
+gem 'sass-rails'
+gem 'bootstrap'
